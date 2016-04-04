@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Flask CookBook &mdash; Flask CookBook 1.0.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='_static/css/googleapis.css' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Flask CookBook 1.0.0 documentation" href="#"/>
+        <link rel="next" title="Flask 介绍" href="primer/index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="#" class="fa fa-home"> Flask CookBook</a>
+        
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="primer/index.html">Flask 介绍</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="primer/intro.html">测试</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="advance/index.html">Flask 进阶</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="practice/index.html">Flask 实例：newsmeme</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    <div class="wy-side-ad">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- 新模板广告 -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:160px;height:600px"
+             data-ad-client="ca-pub-3421553373953599"
+             data-ad-slot="9570547632"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+
+        <!--百度统计代码-->
+
+          <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?9adc7a1c86496c8e2bc61c4f8fc92d30";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+    </div>
+
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Flask CookBook</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Flask CookBook</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="flask-cookbook">
+<span id="index"></span><h1>Flask CookBook<a class="headerlink" href="#flask-cookbook" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Release:</th><td class="field-body">1.0.0</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Date:</th><td class="field-body">March 15, 2015</td>
+</tr>
+</tbody>
+</table>
+<p>Python 是一门简单易学且功能强大的编程语言。它拥有高效的高级数据结构，并且能够用简单而又高效的方式进行面向对象编程。Python 优雅的语法和动态类型，再结合它的解释性，使其在大多数平台的许多领域中成为编写脚本或开发应用程序的理想语言。</p>
+<div class="section" id="id1">
+<h2>作者简介<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>我的名字叫做 Robert Picard。我是 Matasano Security 的一名安全顾问并且也是一个 Flask 爱好者。我喜欢 Flask 的简洁性，相对来说像 Django 框架给用户准备所有的东西，这种模式适用于许多的人，但是并不适用我。</p>
+<p>如果你想要联系我，请直接发送邮件到 <a class="reference external" href="mailto:robert&#37;&#52;&#48;robert&#46;io">robert<span>&#64;</span>robert<span>&#46;</span>io</a>。如果你对本书有反馈意见的话，请反馈到 <a class="reference external" href="https://github.com/rpicard/explore-flask">GitHub repository</a> 上。</p>
+</div>
+<div class="section" id="id2">
+<h2>入门篇<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>如果你是一个新的 Werkzeug 或者 WSGI 开发，一般情况下你应该从这里开始。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="primer/index.html">Flask 介绍</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="primer/intro.html">测试</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>进阶篇<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>开发服务器和测试支持和管理脚本工具的内容在这里:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="advance/index.html">Flask 进阶</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>实战篇<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="practice/index.html">Flask 实例：newsmeme</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>许可证<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Copyright (c) 2015-2015 [DanDeng, Inc.](<a class="reference external" href="http://www.pythondoc.com/">http://www.pythondoc.com/</a>) 以及其它的贡献者。</p>
+<p>在 Apache 许可证（版本2.0）下授权（以下简称“许可证”）；除非你遵守许可证，否则你可能不能使用这个文件。你可以到这里获取一份许可证的副本：</p>
+<blockquote>
+<div><a class="reference external" href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></div></blockquote>
+<p>除非因适用法律需要或书面同意，根据许可证分发的软件是基于&#8221;按原样&#8221;基础提供，无任何明示的或暗示的保证或条件。详见根据许可证许可下，特定语言的管辖权限和限制。</p>
+</div>
+<div class="section" id="id6">
+<h2>贡献<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>本项目是托管在 <a class="reference external" href="https://github.com/sixu05202004/flask-cookbook">on GitHub</a> 上并且欢迎拉请求（pull requests）！</p>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="primer/index.html" class="btn btn-neutral float-right" title="Flask 介绍">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        <a href="http://www.miibeian.gov.cn/">京ICP备14002119号-1</a>&nbsp;&nbsp; | &copy; Copyright 2015, Dan.Deng.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
